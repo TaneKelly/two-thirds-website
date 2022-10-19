@@ -1,1 +1,153 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Heebo-Regular";
+  overflow-x: hidden;
+}
+
+html {
+  color: #000;
+  background: #fff;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  *font-size: 100%;
+}
+
+legend {
+  color: #000;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__banner img {
+  width: 100vw;
+  min-width: 1000px;
+  background: transparent url(/images/bitmap/nav__banner_bitmap.png) center/cover no-repeat;
+}
+
+.nav__list {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+.nav__list .nav-item {
+  width: 12vw;
+  min-width: 90px;
+}
+.nav__list .nav-item:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+.nav__list .nav__contact {
+  width: 16vw;
+  min-width: 120px;
+}/*# sourceMappingURL=main.css.map */

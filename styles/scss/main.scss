@@ -1,0 +1,33 @@
+@use "./resets";
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav__banner img {
+	width: 100vw;
+	min-width: 1000px;
+	// SVG fallback
+	background: transparent url(/images/bitmap/nav__banner_bitmap.png)
+		center/cover no-repeat;
+}
+
+.nav__list {
+	display: inline-flex;
+	justify-content: space-evenly;
+	width: 100vw;
+	.nav-item {
+		width: 12vw;
+		min-width: 90px;
+	}
+	.nav-item:hover {
+		scale: 1.1;
+		transition: 0.3s;
+	}
+	.nav__contact {
+		width: 16vw;
+		min-width: 120px;
+	}
+}
