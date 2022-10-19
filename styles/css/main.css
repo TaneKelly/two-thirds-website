@@ -122,13 +122,8 @@ legend {
   color: #000;
 }
 
-/* external css: flickity.css */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
+.main-carousel {
+  margin: 10px 3vw 30px 4vw;
 }
 
 .carousel-cell {
@@ -146,6 +141,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.seperator img {
+  width: 100vw;
+  min-width: 1000px;
+}
+
+.seperator_red {
+  background: transparent url(/images/bitmap/) center/cover no-repeat;
+  width: 100vw;
+  min-width: 1000px;
 }
 
 .nav__banner img {
