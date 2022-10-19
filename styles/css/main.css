@@ -150,6 +150,7 @@ legend {
   font-family: GargleBold;
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
+  white-space: nowrap;
 }
 
 .hero__subheading {
@@ -177,6 +178,70 @@ legend {
   width: 26.5vw;
 }
 
+.description__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.desc-left {
+  flex-direction: row;
+}
+
+.desc-right {
+  flex-direction: row-reverse;
+}
+
+.description__container {
+  margin: 4vw 0 4vw 0;
+}
+
+.description {
+  width: 95vw;
+  height: 23vw;
+  margin: 0.75vw 0;
+  border-radius: 5vw;
+}
+
+.description img {
+  height: 23vw;
+  width: 23vw;
+  border-radius: 5vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.desc__text__container {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5vw;
+}
+
+.desc__heading {
+  font-family: GargleBold;
+  color: #dd7360;
+  font-size: clamp(14px, 3vw, 53px);
+  white-space: nowrap;
+  margin-bottom: 1.5vw;
+}
+
+.desc__subheading {
+  font-family: Gargle;
+  color: #dd7360;
+  font-size: clamp(10px, 2.15vw, 40px);
+}
+
+.gradient-left {
+  background: rgb(244, 245, 245);
+  background: linear-gradient(90deg, rgb(244, 245, 245) 0%, rgba(244, 245, 245, 0.8540018373) 70%, rgba(0, 217, 255, 0) 100%);
+}
+
+.gradient-right {
+  background: rgb(244, 245, 245);
+  background: linear-gradient(270deg, rgb(244, 245, 245) 0%, rgba(244, 245, 245, 0.8540018373) 70%, rgba(0, 217, 255, 0) 100%);
+}
+
 @font-face {
   font-family: "GargleBold";
   src: url(/styles/fonts/gargle\ ex\ bd.ttf);
@@ -194,13 +259,19 @@ legend {
 .seperator_red img {
   background: transparent url(/images/bitmap/seperator__red_bitmap.png) center/cover no-repeat;
   width: 100vw;
-  min-width: 1000px;
+  min-width: 850px;
+}
+
+.seperator_purple img {
+  background: transparent url(/images/bitmap/seperator__purple_bitmap.png) center/cover no-repeat;
+  width: 100vw;
+  min-width: 850px;
 }
 
 .seperator_purple-mod img {
   background: transparent url(/images/bitmap/seperator__purple_bitmap.png) center/cover no-repeat;
   width: 100vw;
-  min-width: 1000px;
+  min-width: 850px;
   margin-top: -3.5vw;
 }
 

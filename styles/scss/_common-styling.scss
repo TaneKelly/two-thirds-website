@@ -19,7 +19,15 @@
 		center/cover no-repeat;
 	// SVG fallback
 	width: 100vw;
-	min-width: 1000px;
+	min-width: 850px;
+}
+
+.seperator_purple img {
+	background: transparent url(/images/bitmap/seperator__purple_bitmap.png)
+		center/cover no-repeat;
+	// SVG fallback
+	width: 100vw;
+	min-width: 850px;
 }
 
 .seperator_purple-mod img {
@@ -27,6 +35,6 @@
 		center/cover no-repeat;
 	// SVG fallback
 	width: 100vw;
-	min-width: 1000px;
+	min-width: 850px;
 	margin-top: -3.5vw;
 }
