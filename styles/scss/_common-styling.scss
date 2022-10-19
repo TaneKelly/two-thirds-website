@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "GargleBold";
+	src: url(/styles/fonts/gargle\ ex\ bd.ttf);
+}
+
+@font-face {
+	font-family: "Gargle";
+	src: url(/styles/fonts/gargle\ rg.ttf);
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.seperator_red img {
+	background: transparent url(/images/bitmap/seperator__red_bitmap.png)
+		center/cover no-repeat;
+	// SVG fallback
+	width: 100vw;
+	min-width: 1000px;
+}
+
+.seperator_purple-mod img {
+	background: transparent url(/images/bitmap/seperator__purple_bitmap.png)
+		center/cover no-repeat;
+	// SVG fallback
+	width: 100vw;
+	min-width: 1000px;
+	margin-top: -3.5vw;
+}

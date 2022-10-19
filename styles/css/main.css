@@ -123,7 +123,7 @@ legend {
 }
 
 .main-carousel {
-  margin: 10px 3vw 30px 4vw;
+  margin: 3vw 3vw 5vw 4vw;
 }
 
 .carousel-cell {
@@ -134,24 +134,74 @@ legend {
   counter-increment: gallery-cell;
 }
 .carousel-cell img {
-  width: 100vw;
+  width: 93vw;
 }
 
+.hero__container {
+  margin: 4vw 0 0 0;
+  width: 100vw;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.hero__heading {
+  display: flex;
+  justify-content: center;
+  font-family: GargleBold;
+  color: #dd7360;
+  font-size: clamp(14px, 3vw, 53px);
+}
+
+.hero__subheading {
+  display: flex;
+  justify-content: center;
+  font-family: Gargle;
+  color: #dd7360;
+  font-size: clamp(10px, 2vw, 40px);
+  margin-bottom: 3vw;
+}
+
+.hero__nick img {
+  width: 25vw;
+}
+
+.hero__liam img {
+  width: 18vw;
+}
+
+.hero__oscar img {
+  width: 19.5vw;
+}
+
+.hero__tane img {
+  width: 26.5vw;
+}
+
+@font-face {
+  font-family: "GargleBold";
+  src: url(/styles/fonts/gargle\ ex\ bd.ttf);
+}
+@font-face {
+  font-family: "Gargle";
+  src: url(/styles/fonts/gargle\ rg.ttf);
+}
 .flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.seperator img {
+.seperator_red img {
+  background: transparent url(/images/bitmap/seperator__red_bitmap.png) center/cover no-repeat;
   width: 100vw;
   min-width: 1000px;
 }
 
-.seperator_red {
-  background: transparent url(/images/bitmap/) center/cover no-repeat;
+.seperator_purple-mod img {
+  background: transparent url(/images/bitmap/seperator__purple_bitmap.png) center/cover no-repeat;
   width: 100vw;
   min-width: 1000px;
+  margin-top: -3.5vw;
 }
 
 .nav__banner img {
@@ -164,6 +214,7 @@ legend {
   display: inline-flex;
   justify-content: space-evenly;
   width: 100vw;
+  margin-top: 1.5vw;
 }
 .nav__list .nav-item {
   width: 12vw;

@@ -1,23 +1,6 @@
 @use "./resets";
 @use "./index";
-
-.flex-center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.seperator img {
-	width: 100vw;
-	min-width: 1000px;
-}
-
-.seperator_red {
-	// SVG fallback
-	background: transparent url(/images/bitmap/) center/cover no-repeat;
-	width: 100vw;
-	min-width: 1000px;
-}
+@use "./common-styling";
 
 .nav__banner img {
 	width: 100vw;
@@ -31,6 +14,7 @@
 	display: inline-flex;
 	justify-content: space-evenly;
 	width: 100vw;
+	margin-top: 1.5vw;
 	.nav-item {
 		width: 12vw;
 		min-width: 90px;
