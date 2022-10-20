@@ -298,4 +298,31 @@ legend {
 .nav__list .nav__contact {
   width: 16vw;
   min-width: 120px;
+}
+
+.footer__title {
+  display: flex;
+  justify-content: center;
+  font-family: GargleBold;
+  color: #dd7360;
+  font-size: clamp(14px, 3vw, 53px);
+  white-space: nowrap;
+  padding-top: 0.5vw;
+}
+
+footer ul {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 1vw 0 2vw 0;
+}
+footer ul li:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+footer ul li a {
+  font-family: Gargle;
+  font-size: clamp(10px, 2vw, 40px);
+  text-decoration: none;
+  color: #dd7360;
 }/*# sourceMappingURL=main.css.map */
