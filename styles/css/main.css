@@ -242,6 +242,33 @@ legend {
   background: linear-gradient(270deg, rgb(244, 245, 245) 0%, rgba(244, 245, 245, 0.8540018373) 70%, rgba(0, 217, 255, 0) 100%);
 }
 
+.music__page__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.song__container {
+  width: 85vw;
+  background-color: #f2f2f2;
+  padding: 2vw;
+  margin: 2vw;
+  border-radius: 2.5vw;
+}
+
+.song__title {
+  display: flex;
+  justify-content: center;
+  font-family: GargleBold;
+  color: #dd7360;
+  font-size: clamp(14px, 3vw, 53px);
+  white-space: nowrap;
+}
+
+.song__lyrics {
+  font-size: clamp(14px, 1.45vw, 70px);
+}
+
 @font-face {
   font-family: "GargleBold";
   src: url(/styles/fonts/gargle\ ex\ bd.ttf);
@@ -250,6 +277,10 @@ legend {
   font-family: "Gargle";
   src: url(/styles/fonts/gargle\ rg.ttf);
 }
+* {
+  font-family: Gargle;
+}
+
 .flex-center {
   display: flex;
   align-items: center;

@@ -8,6 +8,10 @@
 	src: url(/styles/fonts/gargle\ rg.ttf);
 }
 
+* {
+	font-family: Gargle;
+}
+
 .flex-center {
 	display: flex;
 	align-items: center;
