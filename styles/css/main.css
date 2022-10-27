@@ -270,6 +270,60 @@ legend {
   font-size: clamp(14px, 1.45vw, 70px);
 }
 
+.contact-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  width: 70vw;
+  min-width: 375px;
+  border-radius: 2.5vw;
+  padding: 2vw;
+  margin: 4vw;
+  font-size: clamp(14px, 2vw, 53px);
+}
+.contact > h1 {
+  font-family: GargleBold;
+  font-size: clamp(14px, 5vw, 53px);
+  color: #dd7360;
+  padding: 1vw;
+}
+
+.form-group {
+  padding: 0.5vw;
+}
+.form-group > input {
+  width: 50vw;
+  min-width: 250px;
+}
+.form-group > textarea {
+  width: 55vw;
+  resize: none;
+  min-width: 284px;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit {
+  width: 30vw;
+  height: 3vw;
+  min-height: 22px;
+  font-family: GargleBold;
+  color: #dd7360;
+  font-size: clamp(14px, 2vw, 53px);
+  margin-top: 1vw;
+}
+
 @font-face {
   font-family: "GargleBold";
   src: url(/styles/fonts/gargle\ ex\ bd.ttf);
