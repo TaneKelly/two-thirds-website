@@ -269,6 +269,7 @@ legend {
   -o-object-fit: cover;
      object-fit: cover;
   padding: 1vw;
+  border-radius: 2.5vw;
 }
 .about-container iframe {
   width: 60vw;
@@ -338,6 +339,7 @@ legend {
   height: 30vw;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 2.5vw;
 }
 
 .song__lyrics {
