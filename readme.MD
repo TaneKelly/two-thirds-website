@@ -1,9 +1,6 @@
 # Two Thirds Website
 Website for the four part "Two Thirds" band 
 
-
-
-## pages
 - [Index](#index)
 - [About](#about)
 - [Music](#music)
