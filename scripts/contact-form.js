@@ -5,6 +5,6 @@ const form = document.forms["contact-us"];
 form.addEventListener("submit", (e) => {
 	e.preventDefault();
 	fetch(scriptURL, { method: "POST", body: new FormData(form) })
-		.then((response) => console.log("Success!", response))
-		.catch((error) => console.error("Error!", error.message));
+		.then((response) => window.alert("Message sent!"))
+		.catch((error) => window.alert("There was an error. please try again"));
 });
