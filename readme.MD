@@ -1,6 +1,8 @@
 # Two Thirds Website
 Website for the four part "Two Thirds" band 
 
+> ### [*Preview Website* ](https://spectacular-cajeta-246c49.netlify.app/) (Netlify preview)
+
 - [Index](#index)
 - [About](#about)
 - [Music](#music)
