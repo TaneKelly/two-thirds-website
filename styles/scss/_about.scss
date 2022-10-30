@@ -17,6 +17,8 @@
 	img {
 		width: 60vw;
 		height: 30vw;
+		min-width: 350px;
+		min-height: 200px;
 		object-fit: cover;
 		padding: 1vw;
 		border-radius: 2.5vw;
@@ -25,6 +27,8 @@
 	iframe {
 		width: 60vw;
 		height: 41vw;
+		min-width: 350px;
+		min-height: 200px;
 	}
 }
 

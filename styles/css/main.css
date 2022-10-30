@@ -266,6 +266,8 @@ legend {
 .about-container img {
   width: 60vw;
   height: 30vw;
+  min-width: 350px;
+  min-height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
   padding: 1vw;
@@ -274,6 +276,8 @@ legend {
 .about-container iframe {
   width: 60vw;
   height: 41vw;
+  min-width: 350px;
+  min-height: 200px;
 }
 
 .about-title {
