@@ -1,11 +1,17 @@
 @font-face {
-	font-family: "GargleBold";
-	src: url(/styles/fonts/gargle\ ex\ bd.ttf);
+	font-family: GargleBold;
+	src: local("/styles/fonts/gargle_ex_bd-webfont.woff2") format("woff2"),
+	local("/styles/fonts/gargle_ex_bd-webfont.woff") format("woff");
+	font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: "Gargle";
-	src: url(/styles/fonts/gargle\ rg.ttf);
+	font-family: Gargle;
+	src: local("/styles/fonts/gargle_rg-webfont.woff2") format("woff2"),
+	local("/styles/fonts/gargle_rg-webfont.woff") format("woff");
+	font-weight: normal;
+    font-style: normal;
 }
 
 * {

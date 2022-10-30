@@ -414,12 +414,16 @@ legend {
 }
 
 @font-face {
-  font-family: "GargleBold";
-  src: url(/styles/fonts/gargle\ ex\ bd.ttf);
+  font-family: GargleBold;
+  src: local("/styles/fonts/gargle_ex_bd-webfont.woff2") format("woff2"), local("/styles/fonts/gargle_ex_bd-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: "Gargle";
-  src: url(/styles/fonts/gargle\ rg.ttf);
+  font-family: Gargle;
+  src: local("/styles/fonts/gargle_rg-webfont.woff2") format("woff2"), local("/styles/fonts/gargle_rg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 * {
   font-family: Gargle;
@@ -478,7 +482,6 @@ legend {
 .footer__title {
   display: flex;
   justify-content: center;
-  font-family: GargleBold;
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
@@ -496,7 +499,6 @@ footer ul li:hover {
   transition: 0.3s;
 }
 footer ul li a {
-  font-family: Gargle;
   font-size: clamp(10px, 2vw, 40px);
   text-decoration: none;
   color: #dd7360;

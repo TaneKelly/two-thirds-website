@@ -39,7 +39,6 @@
 .footer__title {
 	display: flex;
 	justify-content: center;
-	font-family: GargleBold;
 	color: #dd7360;
 	font-size: clamp(14px, 3vw, 53px);
 	white-space: nowrap;
@@ -57,7 +56,6 @@ footer ul {
 			transition: 0.3s;
 		}
 		a {
-			font-family: Gargle;
 			font-size: clamp(10px, 2vw, 40px);
 			text-decoration: none;
 			color: #dd7360;
