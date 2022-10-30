@@ -140,6 +140,7 @@ legend {
   width: 93vw;
   height: 35vw;
   min-height: 250px;
+  border: 0px;
 }
 
 .hero__container {
@@ -278,6 +279,7 @@ legend {
   height: 41vw;
   min-width: 350px;
   min-height: 200px;
+  border: 0px;
 }
 
 .about-title {
