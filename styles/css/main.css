@@ -136,6 +136,10 @@ legend {
 .carousel-cell img {
   width: 93vw;
 }
+.carousel-cell iframe {
+  width: 93vw;
+  height: 35vw;
+}
 
 .hero__container {
   margin: 4vw 0 0 0;
@@ -292,8 +296,6 @@ legend {
 }
 
 .song__title a {
-  display: flex;
-  justify-content: center;
   font-family: GargleBold;
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
