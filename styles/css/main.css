@@ -153,7 +153,7 @@ legend {
 .hero__heading {
   display: flex;
   justify-content: center;
-  font-family: GargleBold;
+  font-weight: bold;
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
@@ -162,7 +162,6 @@ legend {
 .hero__subheading {
   display: flex;
   justify-content: center;
-  font-family: Gargle;
   color: #dd7360;
   font-size: clamp(10px, 2vw, 40px);
   margin-bottom: 3vw;
@@ -225,7 +224,7 @@ legend {
 }
 
 .desc__heading {
-  font-family: GargleBold;
+  font-weight: bold;
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
@@ -233,7 +232,6 @@ legend {
 }
 
 .desc__subheading {
-  font-family: Gargle;
   color: #dd7360;
   font-size: clamp(10px, 2.15vw, 40px);
 }
@@ -285,12 +283,12 @@ legend {
 .about-title {
   display: flex;
   justify-content: center;
-  font-family: GargleBold;
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
   text-decoration: none;
   padding: 1.5vw;
+  font-weight: bold;
 }
 
 .about-desc {
@@ -306,7 +304,7 @@ legend {
 
 .song__title {
   display: flex;
-  font-family: GargleBold;
+  font-weight: bold;
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
@@ -318,7 +316,7 @@ legend {
 .song__title {
   display: flex;
   justify-content: center;
-  font-family: GargleBold;
+  font-weight: bold;
   color: #dd7360;
   font-size: clamp(20px, 3vw, 53px);
   white-space: nowrap;
@@ -377,7 +375,7 @@ legend {
   font-size: clamp(14px, 2vw, 53px);
 }
 .contact > h1 {
-  font-family: GargleBold;
+  font-weight: bold;
   font-size: clamp(14px, 5vw, 53px);
   color: #dd7360;
   padding: 1vw;
@@ -407,24 +405,12 @@ legend {
   width: 30vw;
   height: 3vw;
   min-height: 22px;
-  font-family: GargleBold;
+  font-weight: bold;
   color: #dd7360;
   font-size: clamp(14px, 2vw, 53px);
   margin-top: 1vw;
 }
 
-@font-face {
-  font-family: GargleBold;
-  src: local("/styles/fonts/gargle_ex_bd-webfont.woff2") format("woff2"), local("/styles/fonts/gargle_ex_bd-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: Gargle;
-  src: local("/styles/fonts/gargle_rg-webfont.woff2") format("woff2"), local("/styles/fonts/gargle_rg-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 * {
   font-family: Gargle;
 }
@@ -486,6 +472,7 @@ legend {
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
   padding-top: 0.5vw;
+  font-weight: bold;
 }
 
 footer ul {

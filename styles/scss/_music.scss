@@ -6,7 +6,7 @@
 
 .song__title {
 	display: flex;
-	font-family: GargleBold;
+	font-weight: bold;
 	color: #dd7360;
 	font-size: clamp(14px, 3vw, 53px);
 	white-space: nowrap;
@@ -18,7 +18,7 @@
 .song__title {
 	display: flex;
 	justify-content: center;
-	font-family: GargleBold;
+	font-weight: bold;
 	color: #dd7360;
 	font-size: clamp(20px, 3vw, 53px);
 	white-space: nowrap;

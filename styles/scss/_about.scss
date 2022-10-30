@@ -36,12 +36,12 @@
 .about-title {
 	display: flex;
 	justify-content: center;
-	font-family: GargleBold;
 	color: #dd7360;
 	font-size: clamp(14px, 3vw, 53px);
 	white-space: nowrap;
 	text-decoration: none;
 	padding: 1.5vw;
+	font-weight: bold;
 }
 
 .about-desc {

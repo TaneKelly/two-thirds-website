@@ -34,7 +34,7 @@
 .hero__heading {
 	display: flex;
 	justify-content: center;
-	font-family: GargleBold;
+	font-weight: bold;
 	color: #dd7360;
 	font-size: clamp(14px, 3vw, 53px);
 	white-space: nowrap;
@@ -43,7 +43,6 @@
 .hero__subheading {
 	display: flex;
 	justify-content: center;
-	font-family: Gargle;
 	color: #dd7360;
 	font-size: clamp(10px, 2vw, 40px);
 	margin-bottom: 3vw;
@@ -107,7 +106,7 @@
 }
 
 .desc__heading {
-	font-family: GargleBold;
+	font-weight: bold;
 	color: #dd7360;
 	font-size: clamp(14px, 3vw, 53px);
 	white-space: nowrap;
@@ -115,7 +114,6 @@
 }
 
 .desc__subheading {
-	font-family: Gargle;
 	color: #dd7360;
 	font-size: clamp(10px, 2.15vw, 40px);
 }
