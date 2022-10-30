@@ -139,6 +139,7 @@ legend {
 .carousel-cell iframe {
   width: 93vw;
   height: 35vw;
+  min-height: 250px;
 }
 
 .hero__container {
@@ -259,11 +260,19 @@ legend {
   background-color: #f2f2f2;
   width: 90vw;
   border-radius: 2vw;
-  padding: 2vw;
+  padding: 0.5vw 2vw;
   margin: 2vw;
 }
-.about-container > img {
-  width: 50vw;
+.about-container img {
+  width: 60vw;
+  height: 30vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1vw;
+}
+.about-container iframe {
+  width: 60vw;
+  height: 41vw;
 }
 
 .about-title {
@@ -274,6 +283,7 @@ legend {
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
   text-decoration: none;
+  padding: 1.5vw;
 }
 
 .about-desc {
@@ -281,13 +291,36 @@ legend {
   padding: 1vw 0 2vw 0;
 }
 
-.music__page__container {
+.music__page-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.song__container {
+.song__title {
+  display: flex;
+  font-family: GargleBold;
+  color: #dd7360;
+  font-size: clamp(14px, 3vw, 53px);
+  white-space: nowrap;
+  text-decoration: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.song__title {
+  display: flex;
+  justify-content: center;
+  font-family: GargleBold;
+  color: #dd7360;
+  font-size: clamp(20px, 3vw, 53px);
+  white-space: nowrap;
+  text-decoration: none;
+  width: 100%;
+  padding-bottom: 2vw;
+}
+
+.song-container {
   width: 85vw;
   background-color: #f2f2f2;
   padding: 2vw;
@@ -295,22 +328,32 @@ legend {
   border-radius: 2.5vw;
 }
 
-.song__title a {
-  font-family: GargleBold;
-  color: #dd7360;
-  font-size: clamp(14px, 3vw, 53px);
-  white-space: nowrap;
-  text-decoration: none;
+.song__content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.song__content-container img {
+  width: 40vw;
+  height: 30vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .song__lyrics {
   font-size: clamp(14px, 1.45vw, 70px);
 }
 
+@media only screen and (max-width: 1000px) {
+  .song__content-container img {
+    display: none;
+  }
+}
 .contact-container {
   display: flex;
   justify-content: center;
   width: 100vw;
+  min-height: 65vh;
 }
 
 .contact {
@@ -340,6 +383,7 @@ legend {
   min-width: 250px;
 }
 .form-group > textarea {
+  height: 45vh;
   width: 55vw;
   resize: none;
   min-width: 284px;
