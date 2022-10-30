@@ -7,7 +7,7 @@ Website for the four part "Two Thirds" band
 - [About](#about)
 - [Music](#music)
 - [Contact](#contact)
-- [External websites used](#external-websites)
+- [External websites](#external-websites)
 
 ___
 
