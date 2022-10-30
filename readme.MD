@@ -17,6 +17,8 @@ My Index uses [JSFlickity 2.2](https://flickity.metafizzy.co/) which allows me t
 
 The [jsflickity](https://flickity.metafizzy.co/) contains a youtube embed. The embed causes cookies issues but I don't believe these to be a problem as my website doesn't utilize cookies anyway.
 
+There also seems to be a weird issue with the youtube embed taking a very long time to load on chrome. If I decide to update this in the future I will probably end up changing out the default iframe embed with something more performant like [Lite YouTube Embed](https://github.com/paulirish/lite-youtube-embed).
+
 ___
 
 ## About
