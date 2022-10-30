@@ -34,7 +34,7 @@
 .hero__heading {
 	display: flex;
 	justify-content: center;
-	font-weight: bold;
+	font-family: "GargleBold";
 	color: #dd7360;
 	font-size: clamp(14px, 3vw, 53px);
 	white-space: nowrap;
@@ -106,7 +106,7 @@
 }
 
 .desc__heading {
-	font-weight: bold;
+	font-family: "GargleBold";
 	color: #dd7360;
 	font-size: clamp(14px, 3vw, 53px);
 	white-space: nowrap;

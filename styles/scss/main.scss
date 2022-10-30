@@ -5,6 +5,10 @@
 @use "./contact";
 @use "./common-styling";
 
+* {
+	font-family: "Gargle";
+}
+
 // Navbar
 
 .nav__banner img {
@@ -43,7 +47,7 @@
 	font-size: clamp(14px, 3vw, 53px);
 	white-space: nowrap;
 	padding-top: 0.5vw;
-	font-weight: bold;
+	font-family: "GargleBold";
 }
 
 footer ul {

@@ -153,7 +153,7 @@ legend {
 .hero__heading {
   display: flex;
   justify-content: center;
-  font-weight: bold;
+  font-family: "GargleBold";
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
@@ -224,7 +224,7 @@ legend {
 }
 
 .desc__heading {
-  font-weight: bold;
+  font-family: "GargleBold";
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
@@ -288,7 +288,7 @@ legend {
   white-space: nowrap;
   text-decoration: none;
   padding: 1.5vw;
-  font-weight: bold;
+  font-family: "GargleBold";
 }
 
 .about-desc {
@@ -304,7 +304,7 @@ legend {
 
 .song__title {
   display: flex;
-  font-weight: bold;
+  font-family: "GargleBold";
   color: #dd7360;
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
@@ -316,7 +316,7 @@ legend {
 .song__title {
   display: flex;
   justify-content: center;
-  font-weight: bold;
+  font-family: "GargleBold";
   color: #dd7360;
   font-size: clamp(20px, 3vw, 53px);
   white-space: nowrap;
@@ -375,7 +375,7 @@ legend {
   font-size: clamp(14px, 2vw, 53px);
 }
 .contact > h1 {
-  font-weight: bold;
+  font-family: "GargleBold";
   font-size: clamp(14px, 5vw, 53px);
   color: #dd7360;
   padding: 1vw;
@@ -405,16 +405,28 @@ legend {
   width: 30vw;
   height: 3vw;
   min-height: 22px;
-  font-weight: bold;
+  font-family: "GargleBold";
   color: #dd7360;
   font-size: clamp(14px, 2vw, 53px);
   margin-top: 1vw;
 }
 
-* {
-  font-family: Gargle;
+@font-face {
+  font-family: "Gargle";
+  src: url("../fonts/GargleRg-Regular.eot");
+  src: url("../fonts/GargleRg-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/GargleRg-Regular.woff2") format("woff2"), url("../fonts/GargleRg-Regular.woff") format("woff"), url("../fonts/GargleRg-Regular.ttf") format("truetype"), url("../fonts/GargleExRg-Bold.svg#GargleExRg-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-
+@font-face {
+  font-family: "GargleBold";
+  src: url("../fonts/GargleExRg-Bold.eot");
+  src: url("../fonts/GargleExRg-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/GargleExRg-Bold.woff2") format("woff2"), url("../fonts/GargleExRg-Bold.woff") format("woff"), url("../fonts/GargleExRg-Bold.ttf") format("truetype"), url("../fonts/GargleRg-Regular.svg#GargleRg-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 .flex-center {
   display: flex;
   align-items: center;
@@ -438,6 +450,10 @@ legend {
   width: 100vw;
   min-width: 850px;
   margin-top: -3.5vw;
+}
+
+* {
+  font-family: "Gargle";
 }
 
 .nav__banner img {
@@ -472,7 +488,7 @@ legend {
   font-size: clamp(14px, 3vw, 53px);
   white-space: nowrap;
   padding-top: 0.5vw;
-  font-weight: bold;
+  font-family: "GargleBold";
 }
 
 footer ul {

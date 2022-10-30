@@ -1,5 +1,27 @@
-* {
-	font-family: Gargle;
+@font-face {
+    font-family: 'Gargle';
+    src: url('../fonts/GargleRg-Regular.eot');
+    src: url('../fonts/GargleRg-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GargleRg-Regular.woff2') format('woff2'),
+        url('../fonts/GargleRg-Regular.woff') format('woff'),
+        url('../fonts/GargleRg-Regular.ttf') format('truetype'),
+        url('../fonts/GargleExRg-Bold.svg#GargleExRg-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GargleBold';
+    src: url('../fonts/GargleExRg-Bold.eot');
+    src: url('../fonts/GargleExRg-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GargleExRg-Bold.woff2') format('woff2'),
+        url('../fonts/GargleExRg-Bold.woff') format('woff'),
+        url('../fonts/GargleExRg-Bold.ttf') format('truetype'),
+        url('../fonts/GargleRg-Regular.svg#GargleRg-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 .flex-center {

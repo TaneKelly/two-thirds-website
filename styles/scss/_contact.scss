@@ -17,7 +17,7 @@
 	margin: 4vw;
 	font-size: clamp(14px, 2vw, 53px);
 	& > h1 {
-		font-weight: bold;
+		font-family: "GargleBold";
 		font-size: clamp(14px, 5vw, 53px);
 		color: #dd7360;
 		padding: 1vw;
@@ -48,7 +48,7 @@
 	width: 30vw;
 	height: 3vw;
 	min-height: 22px;
-	font-weight: bold;
+	font-family: "GargleBold";
 	color: #dd7360;
 	font-size: clamp(14px, 2vw, 53px);
 	margin-top: 1vw;
