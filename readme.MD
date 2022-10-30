@@ -39,7 +39,7 @@ ___
 
 My contact form uses code from [Jamie Wilson's Google Sheets Repository](https://github.com/jamiewilson/form-to-google-sheets) which is a easy way to create a proof of concept contact form that works.
 
-All responses from the contact form are loaded [here](https://docs.google.com/spreadsheets/d/1nKa0vq54qbAcqfeC0sPl9BofzA9-mXZq4fKW0ELmHGY/edit?usp=sharing).
+ >All responses from the contact form are loaded [here](https://docs.google.com/spreadsheets/d/1nKa0vq54qbAcqfeC0sPl9BofzA9-mXZq4fKW0ELmHGY/edit?usp=sharing).
 
 ___
 
