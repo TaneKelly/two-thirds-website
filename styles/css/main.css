@@ -134,10 +134,10 @@ legend {
   counter-increment: gallery-cell;
 }
 .carousel-cell img {
-  width: 93vw;
+  width: 92vw;
 }
 .carousel-cell iframe {
-  width: 93vw;
+  width: 92vw;
   height: 35vw;
   min-height: 250px;
   border: 0px;
