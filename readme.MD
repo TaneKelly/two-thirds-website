@@ -7,7 +7,7 @@ Website for the four part "Two Thirds" band
 - [About](#about)
 - [Music](#music)
 - [Contact](#contact)
-- [External websites used](#external-websites-used)
+- [External websites used](#external-websites)
 
 ___
 
@@ -43,7 +43,7 @@ My contact form uses code from [Jamie Wilson's Google Sheets Repository](https:/
 
 ___
 
-## External websites used
+## External websites
 - [Prototype build for this repo](https://github.com/TwoThirdsBand/two_thirds_prototype)
 - [Flickity 2.2](https://flickity.metafizzy.co/)
 - [Jamie Wilson's Google Sheets Repo](https://github.com/jamiewilson/form-to-google-sheets)
