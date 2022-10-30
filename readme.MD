@@ -44,7 +44,7 @@ My contact form uses code from [Jamie Wilson's Google Sheets Repository](https:/
 ___
 
 ## External websites used
-- [Prototype build](https://github.com/TwoThirdsBand/two_thirds_prototype)
+- [Prototype build for this repo](https://github.com/TwoThirdsBand/two_thirds_prototype)
 - [Flickity 2.2](https://flickity.metafizzy.co/)
 - [Jamie Wilson's Google Sheets Repo](https://github.com/jamiewilson/form-to-google-sheets)
 - [Fontkit Generator](https://transfonter.org/)
