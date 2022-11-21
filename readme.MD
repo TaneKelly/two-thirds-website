@@ -7,6 +7,7 @@ Website for the four part "Two Thirds" band
 - [About](#about)
 - [Music](#music)
 - [Contact](#contact)
+- [External websites](#external-websites)
 
 ___
 
@@ -15,6 +16,8 @@ ___
 My Index uses [JSFlickity 2.2](https://flickity.metafizzy.co/) which allows me to create highly customizable sliders that can hold multiple types of content. The only problem with [jsflickity](https://flickity.metafizzy.co/) is the responsive resize only triggers after the page has finished being resized. This means that it lags behind when changing the screen width.
 
 The [jsflickity](https://flickity.metafizzy.co/) contains a youtube embed. The embed causes cookies issues but I don't believe these to be a problem as my website doesn't utilize cookies anyway.
+
+There also seems to be a weird issue with the youtube embed taking a very long time to load on chrome. If I decide to update this in the future I will probably end up changing out the default iframe embed with something more performant like [Lite YouTube Embed](https://github.com/paulirish/lite-youtube-embed).
 
 ___
 
@@ -42,7 +45,8 @@ My contact form uses code from [Jamie Wilson's Google Sheets Repository](https:/
 
 ___
 
-## External websites used
+## External websites
+- [Prototype build for this repo](https://github.com/TwoThirdsBand/two_thirds_prototype)
 - [Flickity 2.2](https://flickity.metafizzy.co/)
 - [Jamie Wilson's Google Sheets Repo](https://github.com/jamiewilson/form-to-google-sheets)
 - [Fontkit Generator](https://transfonter.org/)
